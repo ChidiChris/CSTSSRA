@@ -12,10 +12,10 @@ export const Route = createFileRoute("/kitchen")({
   component: KitchenPage,
 });
 
-import kitchenEkong from "@/assets/kitchen/ekong.jpg";
-import kitchenAbubakar from "@/assets/kitchen/abubakar.jpg";
-import kitchenMadu from "@/assets/kitchen/madu.jpg";
-import kitchenNnamdi from "@/assets/kitchen/nnamdi.jpg";
+import kitchenEkong from "@/assets/kitchen/person-4.png";
+import kitchenAbubakar from "@/assets/kitchen/person-4.png";
+import kitchenMadu from "@/assets/kitchen/person-4.png";
+import kitchenNnamdi from "@/assets/kitchen/person-4.png";
 
 const STAFF = [
   { name: "Mrs. R. O. Ekong", role: "Catering Manager", years: 15, photo: kitchenEkong },
